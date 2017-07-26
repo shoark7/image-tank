@@ -1,0 +1,33 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content='30'>
+  <meta http-equiv="author" content="sunghwan">
+  <meta http-equiv="description" content="Image tank site">
+  <meta http-equiv="keywords" content="image,django,python">
+  <link rel="stylesheet" href="{% static 'style.css' %}" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+  <title>image tank!!</title>
+</head>
+<body>
+	<nav class="menu">
+		<ul>
+			<li>회원가입</li>
+			<li>로그인</li>
+			<li>사진 등록</li>
+			<li>사진 확인</li>
+			<li>기타</li>
+		</ul>
+	</nav>
+
+	<section class="bg">
+		{% block 'block content' %}
+
+		{% endblock %}
+	</section>
+	
+
+</body>
+</html>
