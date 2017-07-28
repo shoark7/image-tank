@@ -12,18 +12,18 @@
   <title>image tank!!</title>
 </head>
 <body>
-	<nav class="menu">
+	<nav id="menu">
 		<ul>
-			<li>회원가입</li>
-			<li>로그인</li>
-			<li>사진 등록</li>
-			<li>사진 확인</li>
-			<li>기타</li>
+      <a href=""><li>회원가입</li></a>
+      <a href=""><li>로그인</li></a>
+      <a href=""><li>로그아웃</li></a>
+      <a href=""><li>사진 업로드</li></a>
+      <a href=""><li>사진 목록 확인</li></a>
 		</ul>
 	</nav>
 
-	<section class="bg">
-		{% block 'block content' %}
+	<section id="bg">
+		{% block 'content' %}
 
 		{% endblock %}
 	</section>

@@ -1,0 +1,44 @@
+* {
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+nav#menu {
+  position: fixed;
+  top: 0;
+  background-color: steelblue;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav#menu ul {
+  list-style-type: none;
+  margin-top: 0;
+}
+
+#menu ul li {
+  padding: 15px;
+  float: right;
+  color: yellow;
+  font-weight: bold;
+}
+
+#menu ul li:hover {
+  background-color: yellow;
+  color: red;
+}
+
+
+#bg {
+  position: relative;
+  top: 48px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: silver;
+  padding: 10px;
+}
