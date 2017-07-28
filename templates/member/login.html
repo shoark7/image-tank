@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block 'content' %}
+
+
+<form action="{% url 'member:login' %}" method="POST">
+  {% csrf_token %}
+  {{ form.as_table }}
+  <button type="submit">제출</button>
+</form>
+
+
+{% endblock %}
